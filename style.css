@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #eaf6ff,
+        #d8edff,
+        #f5fbff
+    );
+
+    color: #31516b;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 45px 0 25px;
+}
+
+/* PROFILE */
+
+.profile {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile-img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid white;
+
+    box-shadow: 0 8px 25px rgba(90, 150, 190, 0.25);
+}
+
+.profile h1 {
+    margin-top: 15px;
+    font-size: 27px;
+    color: #315b78;
+}
+
+.bio {
+    margin-top: 7px;
+    color: #7193aa;
+    font-size: 14px;
+}
+
+/* SOCIAL MEDIA */
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 28px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #4d7895;
+
+    background: rgba(255, 255, 255, 0.75);
+
+    padding: 9px 14px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    box-shadow: 0 4px 12px rgba(80, 140, 180, 0.12);
+
+    transition: 0.3s;
+}
+
+.social a:hover {
+    background: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* MENU */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.menu-card {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    color: #31516b;
+
+    background: rgba(255, 255, 255, 0.8);
+
+    padding: 16px 18px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 6px 20px rgba(75, 140, 180, 0.13);
+
+    transition: 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-3px);
+    background: white;
+    box-shadow: 0 10px 25px rgba(75, 140, 180, 0.2);
+}
+
+.menu-card > span {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #e1f2ff;
+
+    border-radius: 13px;
+
+    font-size: 20px;
+
+    margin-right: 14px;
+}
+
+.menu-card div {
+    flex: 1;
+}
+
+.menu-card h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.menu-card p {
+    font-size: 12px;
+    color: #89a4b7;
+}
+
+.menu-card b {
+    font-size: 25px;
+    color: #8ab1c9;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+
+    font-size: 12px;
+    color: #8aa6b8;
+}
